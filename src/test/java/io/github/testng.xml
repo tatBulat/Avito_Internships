@@ -1,0 +1,9 @@
+<suite name="AllTestsSuite">
+    <test name="TestAllClasses">
+        <classes>
+            <class name="io.github.FilterTest" />
+            <class name="io.github.BackToMainTest" />
+            <class name="io.github.PaginationTest" />
+        </classes>
+    </test>
+</suite>
