@@ -12,7 +12,7 @@
 ***
 # Задание №1
 В задании требуется перечислить баги со скриншота и указать их приоритет.  
-Подробнее можно ознакомиться в файле firstTask.md
+Подробнее можно ознакомиться в файле [firstTask.md](https://github.com/tatBulat/Avito_Internships/blob/master/firstTask.md).
 ***
 # Задание №2
 Задание выполнено в связке с Java + Selenium + TestNG  
