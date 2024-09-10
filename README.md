@@ -60,7 +60,8 @@ cd Например: C:/Users/mirov/Downloads/Avito_Internships-master/Avito_Int
 ```
 mvn install
 ```
+`Может быть такое, что при вызове данной команды могут установится и зависимости и запустится тесты.`  
 #### 6. Запустите тесты, выполнив команду: ####
 ```
-mvn spring-boot:run
+mvn test
 ```
