@@ -15,7 +15,7 @@
 Подробнее можно ознакомиться в файле [firstTask.md](https://github.com/tatBulat/Avito_Internships/blob/master/firstTask.md).
 ***
 # Задание №2
-Задание выполнено в связке с Java + Selenium + TestNG  
+Задание выполнено в связке с Java + ChromeDriver + Maven 
 * В тест-кейсах проверяется пользовательские сценарии:
   * Фильтрация по категории.    
   * Возврат на главную страницу с помощью кнопки Back to main.  
