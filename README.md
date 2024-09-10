@@ -37,7 +37,7 @@ mvn -v
 ```
 chromedriver --version
 ```
-В случае, если выходит данная ошибка `bash: chromedriver: command not found` или `bash: mvn: command not found`, то переходим в инструкцию по установке и настройке.  
+В случае, если выходит данная ошибка `bash: chromedriver: command not found` или `bash: mvn: command not found`, то переходим в [инструкцию](https://github.com/tatBulat/Avito_Internships/blob/master/MavenAndWebDriver.md) по установке и настройке.  
 #### 3. Клонируйте репозиторий с проектом тестового задания к себе, выполнив следующую команду в терминале: ####  
 ```
 git clone https://github.com/tatBulat/Avito_Internships.git
