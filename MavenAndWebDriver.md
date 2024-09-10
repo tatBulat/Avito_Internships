@@ -15,7 +15,8 @@ mvn -v
 ```
 ***  
 __Для Mac__  
-1. Установите Homebrew (если он еще не установлен).  
+Установите Homebrew (если он еще не установлен).  
+
 Откройте терминал и выполните следующую команду для установки Homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -24,17 +25,20 @@ __Для Mac__
 ```
 brew --version
 ```
-2. Установите Maven через Homebrew.  
+Установите Maven через Homebrew.  
+
 Теперь вы можете установить Apache Maven, используя Homebrew:
 ```
 brew install maven
 ```
-3. Проверьте установку Maven.  
+Проверьте установку Maven.  
+
 После установки убедитесь, что Maven установлен правильно, проверив его версию:
 ```
 mvn -v
 ```
-4. Настройка переменной окружения `MAVEN_HOME`.  
+Настройка переменной окружения `MAVEN_HOME`.  
+
 Если Maven установлен, но не работает корректно, вам может потребоваться настроить переменную `MAVEN_HOME`.  
 
 Откройте файл конфигурации `.bash_profile` или `.zshrc` (в зависимости от вашего терминала):  
@@ -50,7 +54,8 @@ export PATH=$MAVEN_HOME/bin:$PATH
 ```
 source ~/.bash_profile  # или source ~/.zshrc, если используется zsh
 ```
-5. Проверка работы Maven  
+Проверка работы Maven
+
 Проверьте снова:  
 ```
 mvn -v
@@ -70,13 +75,14 @@ chromedriver --version
 Если все настроено правильно, эта команда должна показать версию установленного ChromeDriver.  
 ***
 __Для Mac__  
-1. Выполните следующие команды в терминале, чтобы установить ChromeDriver:
+Выполните следующие команды в терминале, чтобы установить ChromeDriver:
 ```
 brew install chromedriver
 ```
-2. Добавление в PATH (если путь не настроен):  
-* После установки ChromeDriver его нужно добавить в `PATH`.  
-Откройте файл ~/.bashrc (или ~/.bash_profile):
+Добавление в PATH (если путь не настроен):  
+* После установки ChromeDriver его нужно добавить в `PATH`.
+
+Откройте файл `~/.bashrc` (или `~/.bash_profile`):
 ```
 nano ~/.bashrc
 ```
@@ -85,11 +91,12 @@ nano ~/.bashrc
 export PATH=$PATH:/path/to/chromedriver
 ```
 Замените `/path/to/chromedriver` на фактический путь к ChromeDriver.  
+
 Примените изменения:  
 ```
 source ~/.bashrc
 ```
-3. После этого проверьте снова:  
+После этого проверьте снова:  
 ```
 chromedriver --version
 ```  
