@@ -10,7 +10,16 @@ public class MainPage {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mirov\\Downloads\\chromedriver-win64\\chromedriver.exe");
+        // Получаем путь к ChromeDriver из переменной окружения
+        String chromeDriverPath = System.getenv("CHROME_DRIVER_PATH");
+
+        // Если переменная окружения не установлена, выводим ошибку
+        if (chromeDriverPath == null) {
+            throw new RuntimeException("CHROME_DRIVER_PATH не установлена!");
+        }
+
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+
         driver = new ChromeDriver();
         driver.get("https://makarovartem.github.io/frontend-avito-tech-test-assignment/");
         driver.manage().window().maximize();
