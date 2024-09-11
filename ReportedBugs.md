@@ -5,8 +5,31 @@
 | Версия  | Операционная система: Windows 11<br> Браузер: Google Chrome 128.0.6613.120 |
 | Серьезность | Critical  |
 | Приоритет  | High  |
-| Шаги к воспроизведению | 1. Открыть сайт: https://makarovartem.github.io/frontend-avito-tech-test-assignment/ <br> 2. Выбрать любой фильтр из 3. Например "Filter by platform", и выбрать "PC", а потом сменить выбор на первоначальный "not chosen". |
+| Шаги к воспроизведению | 1. Открыть сайт: https://makarovartem.github.io/frontend-avito-tech-test-assignment/ <br> 2. Выбрать любой фильтр из 2. Например "Filter by platform", и выбрать "PC", а потом сменить выбор на первоначальный "not chosen". |
 | Фактический результат | На сайте выходит ошибка "Sorry, an unexpected error has occurred." и мы не можем вернуться на сайт по кнопке "Back to main". |
 | Ожидаемый результат | Фильтрация работает, и мы можем ее отключать. В случае ошибки, мы можем вернуться на сайт с помощью кнопки "Back to main". |
-| Дополнения | Ошибка возникает при выборе любого фильтра. |
+| Дополнения | Ошибка возникает при выборе "Filter by platform" и "Filter by category". |
 | Вложения | ![Image Alt](https://github.com/tatBulat/Avito_Internships/blob/master/Attachment/bug_1.png) |
+***
+| ID      | Bug_2                                            |
+|---------|--------------------------------------------------|
+| Краткое описание | Настройка фильтрации пропадает после посещения страницы игры. |
+| Версия  | Операционная система: Windows 11<br> Браузер: Google Chrome 128.0.6613.120 |
+| Серьезность | Minor  |
+| Приоритет  | High  |
+| Шаги к воспроизведению | 1. Открыть сайт: https://makarovartem.github.io/frontend-avito-tech-test-assignment/ <br> 2. Настроить фильтры по своему усмотрению. <br> 3. Перейти на любую страницу игры. <br> 4. Нажать кнопку "Back to main" |
+| Фактический результат | Выбранные нами фильтры изменяются на "not chosen", но фильтрация продолжает работать. |
+| Ожидаемый результат | После возвращения к списку игр, выбранные нами фильтры отображаются на сайте. |
+| Вложения | ![Image Alt](https://github.com/tatBulat/Avito_Internships/blob/master/Attachment/bug_2.png) <br> ![Image Alt](https://github.com/tatBulat/Avito_Internships/blob/master/Attachment/bug_3.png)|
+***
+| ID      | Bug_3                                            |
+|---------|--------------------------------------------------|
+| Краткое описание | Возвращение на первую страницу после посещения страницы игры. |
+| Версия  | Операционная система: Windows 11<br> Браузер: Google Chrome 128.0.6613.120 |
+| Серьезность | Minor  |
+| Приоритет  | High  |
+| Шаги к воспроизведению | 1. Открыть сайт: https://makarovartem.github.io/frontend-avito-tech-test-assignment/ <br> 2. Перейти на любую страницу с помощью пагинации, кроме первой. <br> 3. Перейти на любую страницу игры. <br> 4. Нажать кнопку "Back to main" |
+| Фактический результат | Мы окажемся на первой странице. |
+| Ожидаемый результат | После возвращения к списку игр, мы остаемся на том же номере страницы откуда заходили. |
+| Дополнения | Это работает как с учетом фильтров, так и без них. Аттач приложил с указанием настроенных фильтров. |
+| Вложения | ![Image Alt](https://github.com/tatBulat/Avito_Internships/blob/master/Attachment/bug_4.png) <br> ![Image Alt](https://github.com/tatBulat/Avito_Internships/blob/master/Attachment/bug_5.png)|
