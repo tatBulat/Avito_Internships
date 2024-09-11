@@ -7,6 +7,7 @@
 
 Файл [TestCases.md](https://github.com/tatBulat/Avito_Internships/blob/master/TestCases.md) включает тест-кейсы для второго задания.  
 В файле [ReportedBugs.md](https://github.com/tatBulat/Avito_Internships/blob/master/ReportedBugs.md) составлены баг-репорты, выявленные в процессе выполнения автоматизированных тестов.  
+В папке [Attachment](https://github.com/tatBulat/Avito_Internships/tree/master/Attachment) находятся скриншоты багов второго задания.
 
 Файлы с автоматизированными тестами расположены в корневой директории проекта.
 ***
